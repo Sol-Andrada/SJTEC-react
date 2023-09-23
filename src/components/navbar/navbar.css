@@ -1,0 +1,30 @@
+:root{
+    
+    --color-morado: #a45ea4;
+    --color-gris:#383b44;
+    --color-blanco:#faf9f6;
+    --color-nav: #8a979d93; 
+
+}
+.navbar{
+    padding: 10px;
+    background-color: var(--color-nav) !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+   
+    
+
+}
+.navbar-collapse{
+    align-items: center;
+    justify-content: flex-end;
+} 
+
+@media screen and (max-width:767px){
+    .navbar-brand{
+        display: none;
+    }
+}

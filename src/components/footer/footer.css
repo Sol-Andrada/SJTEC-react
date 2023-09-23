@@ -1,0 +1,56 @@
+/*footer*/
+.footer{
+    min-height: 500px;
+    display: flex;
+}
+.footer-logo{
+    height: 80px;
+    width: 80px;
+    margin: 10px auto;
+}
+.footer-texto{
+    font-size: 1.5rem;
+    padding: 20px;
+    margin: 30px;
+    font-family: "quicksand", sans-serif;
+}
+.iconos-redes-sociales a{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2 ease-in;
+}
+.iconos-redes-sociales i {
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+.iconos-redes-sociales a:hover{
+    background-color: white;
+    border: 2px solid;
+    border-color:var(--color-morado);
+}
+.iconos-redes-sociales a:hover i{
+    color: var(--color-morado);
+}
+.derechos-de-autor{
+    font-size: 15px;
+    color: #aeaeae;
+    padding: 20px;
+    margin: 10px auto;
+
+}
+
+.jihyo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px ;
+    
+    }

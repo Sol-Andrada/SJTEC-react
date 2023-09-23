@@ -1,0 +1,25 @@
+/*Sobre mi*/
+:root{
+    --color-morado: #a45ea4;
+    --color-gris:#383b44;
+    --color-blanco:#faf9f6;
+    --color-nav: #8a979d93; 
+
+}
+.seccion-oscura{
+    background-color: var(--color-gris);
+    color: white;
+}
+.seccion-texto{
+    font-size: 1.2rem;
+}
+.seccion-titulo{
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: "Bebas Neue", cursive;
+}  
+.sobre-mi{
+    height: 500px;
+    padding: 10px;
+}
+

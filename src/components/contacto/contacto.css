@@ -1,0 +1,50 @@
+/*MICHIS*/
+.contacto .container{
+    max-width: 1100px;
+    min-height: 150px; 
+    padding: 0px; /*bajar el div + aumentar la separaciones para que el div sea mas ancho. Si queremos que no ocupe mas ancho podemos tocar max-widht o eliminarlo para que el ancho se ajuste al contenido de lo que haya dentro*/
+
+}
+.contacto .rectangulo{
+    margin-top: -5rem;
+    background-color: var(--color-morado);
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px rgb(45, 45, 45);
+}
+.contacto .row{
+    width: 100%;
+    display: flex;
+    align-items:center;
+}
+.contacto .descripcion {
+    color: white;
+    font-size: 36px;
+    font-family:  'Bebas Neue', cursive;
+}
+.contacto button{
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border:2px solid white;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+}
+.contacto button:hover{
+    background-color: white;
+    color: black;
+}
+.contacto button i {
+    color: white;
+    font-size: 1.rem;
+    transition: 0.2s ease-in-out;
+}
+.contacto button:hover i{
+    color: black;
+}
+
+.gatito img{
+    width: 140px;
+   
+}
